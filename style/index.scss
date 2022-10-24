@@ -13,8 +13,9 @@ html {
   height: 1000px;
   background: $backgrouhd-basic;
   display: flex;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
+  padding-top: 115px;
 
   .price-card {
     margin-right: 18px;
@@ -37,7 +38,7 @@ html {
         font-weight: 700;
         font-size: 35px;
         line-height: 43px;
-        margin-top: 5px;
+        // margin-top: 5px;
       }
 
       .title__subtitle {
