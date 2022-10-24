@@ -120,6 +120,7 @@ html {
     }
     &:nth-child(2) {
       position: relative;
+      overflow: hidden;
 
       .price-card__price {
         background-color: $backgrouhd-blue;
@@ -130,18 +131,28 @@ html {
       .price-card__mark {
         position: absolute;
         right: 0;
+        width: 147px;
+        height: 25px;
+        background-color: #dc3f45;
+        transform: rotate(45deg);
+        top: 32px;
+        right: -30px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
 
-        &_text {
-          position: absolute;
-          font-weight: 700px;
-          transform: rotate(45deg);
-          font-size: 14px;
-          line-height: 17px;
-          height: 17px;
-          left: 32.86%;
-          right: 41.04%;
-          top: calc(50% - 17px / 2 - 25.29px);
-        }
+        // &_text {
+        //   // position: absolute;
+        //   // font-weight: 700px;
+        //   // transform: rotate(45deg);
+        //   // font-size: 14px;
+        //   // line-height: 17px;
+        //   // height: 17px;
+        //   // left: 32.86%;
+        //   // right: 41.04%;
+        //   // top: calc(50% - 17px / 2 - 25.29px);
+        // }
       }
     }
     &:nth-child(3) {
