@@ -25,7 +25,6 @@ html {
     display: flex;
     flex-direction: column;
 
-
     &__title {
       line-height: 43px;
       // width: 100px;
@@ -52,7 +51,7 @@ html {
     &__price {
       background-color: $backgrouhd-green;
       width: 380px;
-      height: 105px;
+      min-height: 105px;
       margin-top: 33px;
       display: flex;
       align-items: center;

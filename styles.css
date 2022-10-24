@@ -47,7 +47,7 @@ html {
 .price-tables .price-card__price {
   background-color: #5BB189;
   width: 380px;
-  height: 105px;
+  min-height: 105px;
   margin-top: 33px;
   display: flex;
   align-items: center;
