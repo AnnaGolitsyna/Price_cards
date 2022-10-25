@@ -1,0 +1,77 @@
+@import 'variables.scss';
+@import 'background.scss';
+@import 'common.scss';
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  width: 380px;
+  height: 770px;
+  margin-right: 18px;
+  background-color: $backgrouhd-cards;
+  box-shadow: $backgrouhd-cards-shadow;
+
+  &__title {
+    margin: auto;
+    padding-top: 33px;
+    line-height: 43px;
+    font-weight: 700;
+    font-size: 35px;
+  }
+
+  &__title-subtitle {
+    margin: auto;
+    line-height: 24px;
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  &__price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+    height: 105px;
+    width: 380px;
+    line-height: 67px;
+    font-weight: 700;
+    font-size: 55px;
+  }
+
+  &__description {
+    margin: auto;
+    margin-top: 40px;
+    width: 327px;
+    height: 36px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 18px;
+    font-size: 15px;
+  }
+
+  &__options-list {
+    padding: 0;
+    margin-top: 40px;
+    width: 380px;
+    min-height: 300px;
+    list-style: none;
+
+
+    &_item {
+      list-style-position: inside;
+      padding-left: 59px;
+      width: 380px;
+      height: 50px;
+      line-height: 50px;
+      font-weight: 300;
+      font-size: 15px;
+
+      &:nth-of-type(odd) {
+        background-color: $backgrouhd-for-odd;
+      }
+
+    }
+  }
+}

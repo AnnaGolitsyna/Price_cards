@@ -1,4 +1,7 @@
 @import 'variables.scss';
+@import 'price-card.scss';
+@import 'background.scss';
+@import 'common.scss';
 
 * {
   box-sizing: border-box;
@@ -8,162 +11,21 @@ html {
   font-family: 'Montserrat', sans-serif;
   color: $color-primary-white;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  // background: #141b1c;
+}
 .price-tables {
+  display: flex;
+  justify-content: center;
+  padding-top: 115px;
   width: 1440px;
   height: 1000px;
+  // height: 100vh;
   background: $backgrouhd-basic;
-  display: flex;
-  // align-items: center;
-  justify-content: center;
-  padding-top: 50px;
-
-  .price-card {
-    margin-right: 18px;
-    width: 380px;
-    height: 770px;
-    background-color: $backgrouhd-cards;
-    box-shadow: $backgrouhd-cards-shadow;
-    display: flex;
-    flex-direction: column;
-
-    &__title {
-      line-height: 43px;
-      // width: 100px;
-      padding-top: 33px;
-      margin: auto;
-      text-align: center;
-
-      .title__basic-title {
-        margin: 0;
-        font-weight: 700;
-        font-size: 35px;
-        line-height: 43px;
-        // margin-top: 5px;
-      }
-
-      .title__subtitle {
-        margin: 0;
-        font-weight: 300;
-        font-size: 20px;
-        line-height: 24px;
-        // margin-top: 5px;
-      }
-    }
-    &__price {
-      background-color: $backgrouhd-green;
-      width: 380px;
-      min-height: 105px;
-      margin-top: 33px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      .price-topical {
-        font-weight: 700;
-        font-size: 55px;
-        line-height: 67px;
-      }
-    }
-    &__description {
-      margin: 0;
-      font-weight: 300;
-      font-size: 15px;
-      line-height: 18px;
-      text-align: center;
-      margin-top: 40px;
-    }
-
-    &__options-list {
-      width: 380px;
-      height: 300px;
-      margin-top: 40px;
-
-      .options-list {
-        width: 380px;
-        height: 50px;
-        display: flex;
-
-        &:nth-of-type(odd) {
-          background-color: $backgrouhd-for-odd;
-        }
-
-        &:nth-of-type(even) {
-          background-color: $backgrouhd-for-even;
-        }
-
-        &__image {
-          width: 15px;
-          height: 13px;
-          margin: 18px 19px 18px 22px;
-        }
-        &__text {
-          width: 163px;
-          height: 18px;
-          font-weight: 300;
-          font-size: 15px;
-          line-height: 18px;
-          margin: 16px 0;
-        }
-      }
-    }
-    &__order-btn {
-      background-color: $backgrouhd-green;
-      border-radius: 20px;
-      padding: 0;
-      width: 154px;
-      height: 40px;
-      color: $color-primary-white;
-      margin: 39px auto;
-      font-size: 14px;
-      line-height: 17px;
-      text-align: center;
-      background-blend-mode: overlay, normal;
-    }
-    &:nth-child(2) {
-      position: relative;
-      overflow: hidden;
-
-      .price-card__price {
-        background-color: $backgrouhd-blue;
-      }
-      .price-card__order-btn {
-        background-color: $backgrouhd-blue;
-      }
-      .price-card__mark {
-        position: absolute;
-        right: 0;
-        width: 147px;
-        height: 25px;
-        background-color: #dc3f45;
-        transform: rotate(45deg);
-        top: 30px;
-        right: -30px;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 25px;
-        text-align: center;
-
-        // &_text {
-        //   // position: absolute;
-        //   // font-weight: 700px;
-        //   // transform: rotate(45deg);
-        //   // font-size: 14px;
-        //   // line-height: 17px;
-        //   // height: 17px;
-        //   // left: 32.86%;
-        //   // right: 41.04%;
-        //   // top: calc(50% - 17px / 2 - 25.29px);
-        // }
-      }
-    }
-    &:nth-child(3) {
-      margin-right: 0;
-      .price-card__price {
-        background-color: $backgrouhd-orange;
-      }
-      .price-card__order-btn {
-        background-color: $backgrouhd-orange;
-      }
-    }
-  }
 }
