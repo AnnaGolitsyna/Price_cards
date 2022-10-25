@@ -12,6 +12,9 @@
   margin-right: 18px;
   background-color: $backgrouhd-cards;
   box-shadow: $backgrouhd-cards-shadow;
+   &:last-child {
+      margin-right: 0;
+    }
 
   &__title {
     margin: auto;
@@ -33,11 +36,12 @@
     align-items: center;
     justify-content: center;
     margin-top: 33px;
-    height: 105px;
+    min-height: 105px;
     width: 380px;
     line-height: 67px;
     font-weight: 700;
     font-size: 55px;
+
   }
 
   &__description {
