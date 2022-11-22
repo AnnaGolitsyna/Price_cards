@@ -12,9 +12,9 @@
   margin-right: 18px;
   background-color: $backgrouhd-cards;
   box-shadow: $backgrouhd-cards-shadow;
-   &:last-child {
-      margin-right: 0;
-    }
+  &:last-child {
+    margin-right: 0;
+  }
 
   &__title {
     margin: auto;
@@ -41,7 +41,6 @@
     line-height: 67px;
     font-weight: 700;
     font-size: 55px;
-
   }
 
   &__description {
@@ -62,10 +61,8 @@
     min-height: 300px;
     list-style: none;
 
-
     &_item {
       list-style-position: inside;
-      padding-left: 59px;
       width: 380px;
       height: 50px;
       line-height: 50px;
@@ -75,7 +72,12 @@
       &:nth-of-type(odd) {
         background-color: $backgrouhd-for-odd;
       }
-
     }
+  }
+  &__icon {
+    display: inline-block;
+    margin: 0 22px;
+    width: 15px;
+    height: 13px;
   }
 }

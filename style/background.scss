@@ -4,23 +4,24 @@
 .price-card__green {
   background-color: $backgrouhd-green;
 }
-.icon-green {
-  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png)
-    no-repeat 22px 19px;
+
+.price-card__icon_green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
 
 .price-card__blue {
   background-color: $backgrouhd-blue;
 }
-.icon-blue {
-  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png)
-    no-repeat 22px 19px;
+
+.price-card__icon_blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
 
 .price-card__orange {
   background-color: $backgrouhd-orange;
 }
-.icon-orange {
-  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png)
-    no-repeat 22px 19px;
+
+.price-card__icon_orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
+
