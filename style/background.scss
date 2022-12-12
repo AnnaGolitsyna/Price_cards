@@ -1,27 +1,28 @@
-@import 'variables.scss';
-@import 'common.scss';
 
-.price-card__green {
-  background-color: $backgrouhd-green;
+.price-card {
+  &_green {
+    background-color: $backgrouhd-green;
+  }
+
+  &__icon_green {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  }
+
+  &_blue {
+    background-color: $backgrouhd-blue;
+  }
+
+  &__icon_blue {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  }
+
+  &_orange {
+    background-color: $backgrouhd-orange;
+  }
+
+  &__icon_orange {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  }
 }
 
-.price-card__icon_green {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-}
-
-.price-card__blue {
-  background-color: $backgrouhd-blue;
-}
-
-.price-card__icon_blue {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
-}
-
-.price-card__orange {
-  background-color: $backgrouhd-orange;
-}
-
-.price-card__icon_orange {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-}
 

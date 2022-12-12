@@ -4,7 +4,7 @@
 ### [Site link](https://annagolitsyna.github.io/Price_cards/)
 
 
-Layout supports desktop versions
+Layout supports desktop versions 1440px
 
 ### The tech stack is:
 

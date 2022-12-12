@@ -1,6 +1,3 @@
-@import 'variables.scss';
-@import 'background.scss';
-@import 'common.scss';
 
 .price-card {
   display: flex;
@@ -24,7 +21,7 @@
     font-size: 35px;
   }
 
-  &__title-subtitle {
+  &__subtitle {
     margin: auto;
     line-height: 24px;
     font-weight: 300;
@@ -62,7 +59,7 @@
     min-height: 300px;
     list-style: none;
 
-    &_item {
+    &-item {
       list-style-position: inside;
       width: 380px;
       height: 50px;
