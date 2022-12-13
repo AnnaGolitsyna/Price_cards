@@ -1,27 +1,30 @@
+.price-card {
 
-.price-card__order-btn {
-  padding: 0;
-  margin: 39px auto;
-  width: 154px;
-  min-height: 40px;
-  line-height: 17px;
-  border-radius: 20px;
-  font-size: 14px;
-  color: $color-primary-white;
-  border-color: transparent;
+  &__order-btn {
+    padding: 0;
+    margin: 39px auto;
+    width: 154px;
+    min-height: 40px;
+    line-height: 17px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: $color-primary-white;
+    border-color: transparent;
+  }
+
+  &__mark {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    right: -30px;
+    width: 147px;
+    height: 25px;
+    text-align: center;
+    transform: rotate(45deg);
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #dc3f45;
+  }
 }
 
-.price-card__mark {
-  position: absolute;
-  top: 30px;
-  right: 0;
-  right: -30px;
-  width: 147px;
-  height: 25px;
-  text-align: center;
-  transform: rotate(45deg);
-  line-height: 25px;
-  font-weight: 700;
-  font-size: 14px;
-  background-color: #dc3f45;
-}
