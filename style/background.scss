@@ -1,6 +1,10 @@
 
 .price-card {
-  &_green {
+  &__price_green {
+    background-color: $backgrouhd-green;
+  }
+
+  &__order-btn_green {
     background-color: $backgrouhd-green;
   }
 
@@ -8,7 +12,11 @@
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
   }
 
-  &_blue {
+  &__price_blue {
+    background-color: $backgrouhd-blue;
+  }
+
+  &__order-btn_blue {
     background-color: $backgrouhd-blue;
   }
 
@@ -16,7 +24,11 @@
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
   }
 
-  &_orange {
+  &__price_orange {
+    background-color: $backgrouhd-orange;
+  }
+
+   &__order-btn_orange {
     background-color: $backgrouhd-orange;
   }
 

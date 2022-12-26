@@ -72,19 +72,28 @@
   height: 13px;
 }
 
-.price-card_green {
+.price-card__price_green {
+  background-color: #5BB189;
+}
+.price-card__order-btn_green {
   background-color: #5BB189;
 }
 .price-card__icon_green {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
-.price-card_blue {
+.price-card__price_blue {
+  background-color: #3A6BA5;
+}
+.price-card__order-btn_blue {
   background-color: #3A6BA5;
 }
 .price-card__icon_blue {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
-.price-card_orange {
+.price-card__price_orange {
+  background-color: #EC632A;
+}
+.price-card__order-btn_orange {
   background-color: #EC632A;
 }
 .price-card__icon_orange {
@@ -101,6 +110,7 @@
   font-size: 14px;
   color: #FFFFFF;
   border-color: transparent;
+  cursor: pointer;
 }
 .price-card__mark {
   position: absolute;
